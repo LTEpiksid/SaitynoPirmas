@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<races>
+    <race>
+        <id>1</id>
+        <name>Grand Prix</name>
+        <location>Monaco</location>
+        <date>2023-05-28</date>
+        <racers>
+            <racer>
+                <id>1</id>
+                <firstName>John</firstName>
+                <lastName>Doe</lastName>
+                <phoneNumber>1234567890</phoneNumber>
+                <status>Active</status>
+                <finishTime>01:45:30</finishTime>
+                <position>1</position>
+            </racer>
+            <!-- Add more racers here -->
+        </racers>
+        <statuses>
+            <status>
+                <id>1</id>
+                <statusName>Active</statusName>
+            </status>
+            <status>
+                <id>2</id>
+                <statusName>Retired</statusName>
+            </status>
+        </statuses>
+        <raceInfos>
+            <raceInfo>
+                <id>1</id>
+                <raceId>1</raceId>
+                <racerId>1</racerId>
+                <finishTime>01:45:30</finishTime>
+                <positionNumber>1</positionNumber>
+            </raceInfo>
+            <!-- Add more raceInfos here -->
+        </raceInfos>
+    </race>
+    <!-- Add more races here -->
+</races>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://www.maven.apache.org/xsd/maven-4.0.0.xsd">
+    <!--
+    modelVersion nurodo POM modelio versiją, naudojamą šiame projekte.
+    -->
+    <modelVersion>4.0.0</modelVersion>
+
+    <!--
+    Projekto unikalus identifikatorius.
+    groupId – grupės identifikatorius, kuris paprastai atitinka domeno vardą (atvirkštine tvarka).
+    artifactId – projekto pavadinimas.
+    version – projekto versija.
+    -->
+    <groupId>org.example</groupId>
+    <artifactId>PirmasPraktinisDimke</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <!--
+    Nustatome savybes, kurios apibrėžia kompiliatoriaus versiją ir šaltinio kodavimo formatą.
+    -->
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <!--
+    Priklausomybės, reikalingos projektui.
+    -->
+    <dependencies>
+        <!--
+        JAXB API priklausomybė leidžia dirbti su XML failais Java projekte.
+        -->
+        <dependency>
+            <groupId>javax.xml.bind</groupId>
+            <artifactId>jaxb-api</artifactId>
+            <version>2.3.1</version>
+        </dependency>
+        <!--
+        JAXB Implementacija, reikalinga JAXB API veikimui.
+        -->
+        <dependency>
+            <groupId>com.sun.xml.bind</groupId>
+            <artifactId>jaxb-impl</artifactId>
+            <version>2.3.3</version>
+        </dependency>
+        <!--
+        Testavimui.
+        -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.25</version>
+        </dependency>
+        <!--
+        MySQL Connector priklausomybė, reikalinga prisijungimui prie MySQL duomenų bazės iš Java programos.
+        -->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+            <version>5.8.1</version>
+            <scope>test</scope>
+        </dependency>
+
+    </dependencies>
+
+</project>

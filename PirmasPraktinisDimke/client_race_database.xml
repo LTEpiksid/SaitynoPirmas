@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<raceDatabase>
+    <raceInfos>
+        <finishTime>01:30:00</finishTime>
+        <id>1</id>
+        <positionNumber>1</positionNumber>
+        <raceId>1</raceId>
+        <racerId>1</racerId>
+    </raceInfos>
+    <raceInfos>
+        <finishTime>01:35:00</finishTime>
+        <id>2</id>
+        <positionNumber>2</positionNumber>
+        <raceId>1</raceId>
+        <racerId>2</racerId>
+    </raceInfos>
+    <raceInfos>
+        <finishTime>01:40:00</finishTime>
+        <id>3</id>
+        <positionNumber>1</positionNumber>
+        <raceId>2</raceId>
+        <racerId>3</racerId>
+    </raceInfos>
+    <raceInfos>
+        <finishTime>01:45:00</finishTime>
+        <id>4</id>
+        <positionNumber>2</positionNumber>
+        <raceId>2</raceId>
+        <racerId>4</racerId>
+    </raceInfos>
+    <raceInfos>
+        <finishTime>01:50:00</finishTime>
+        <id>5</id>
+        <positionNumber>1</positionNumber>
+        <raceId>3</raceId>
+        <racerId>5</racerId>
+    </raceInfos>
+    <raceInfos>
+        <finishTime>01:55:00</finishTime>
+        <id>6</id>
+        <positionNumber>2</positionNumber>
+        <raceId>3</raceId>
+        <racerId>6</racerId>
+    </raceInfos>
+    <raceInfos>
+        <finishTime>02:00:00</finishTime>
+        <id>7</id>
+        <positionNumber>1</positionNumber>
+        <raceId>4</raceId>
+        <racerId>7</racerId>
+    </raceInfos>
+    <raceInfos>
+        <finishTime>02:05:00</finishTime>
+        <id>8</id>
+        <positionNumber>2</positionNumber>
+        <raceId>4</raceId>
+        <racerId>8</racerId>
+    </raceInfos>
+    <raceInfos>
+        <finishTime>02:10:00</finishTime>
+        <id>9</id>
+        <positionNumber>1</positionNumber>
+        <raceId>5</raceId>
+        <racerId>9</racerId>
+    </raceInfos>
+    <raceInfos>
+        <finishTime>02:15:00</finishTime>
+        <id>10</id>
+        <positionNumber>2</positionNumber>
+        <raceId>5</raceId>
+        <racerId>10</racerId>
+    </raceInfos>
+    <racers>
+        <firstName>John</firstName>
+        <id>1</id>
+        <lastName>Doe</lastName>
+        <phoneNumber>1234567890</phoneNumber>
+        <statusId>1</statusId>
+    </racers>
+    <racers>
+        <firstName>Jane</firstName>
+        <id>2</id>
+        <lastName>Smith</lastName>
+        <phoneNumber>0987654321</phoneNumber>
+        <statusId>1</statusId>
+    </racers>
+    <racers>
+        <firstName>Jim</firstName>
+        <id>3</id>
+        <lastName>Beam</lastName>
+        <phoneNumber>5555555555</phoneNumber>
+        <statusId>1</statusId>
+    </racers>
+    <racers>
+        <firstName>Jack</firstName>
+        <id>4</id>
+        <lastName>Daniels</lastName>
+        <phoneNumber>4444444444</phoneNumber>
+        <statusId>2</statusId>
+    </racers>
+    <racers>
+        <firstName>Jose</firstName>
+        <id>5</id>
+        <lastName>Cuervo</lastName>
+        <phoneNumber>3333333333</phoneNumber>
+        <statusId>2</statusId>
+    </racers>
+    <racers>
+        <firstName>Jill</firstName>
+        <id>6</id>
+        <lastName>Valentine</lastName>
+        <phoneNumber>2222222222</phoneNumber>
+        <statusId>1</statusId>
+    </racers>
+    <racers>
+        <firstName>Chris</firstName>
+        <id>7</id>
+        <lastName>Redfield</lastName>
+        <phoneNumber>1111111111</phoneNumber>
+        <statusId>1</statusId>
+    </racers>
+    <racers>
+        <firstName>Leon</firstName>
+        <id>8</id>
+        <lastName>Kennedy</lastName>
+        <phoneNumber>6666666666</phoneNumber>
+        <statusId>2</statusId>
+    </racers>
+    <racers>
+        <firstName>Claire</firstName>
+        <id>9</id>
+        <lastName>Redfield</lastName>
+        <phoneNumber>7777777777</phoneNumber>
+        <statusId>1</statusId>
+    </racers>
+    <racers>
+        <firstName>Ada</firstName>
+        <id>10</id>
+        <lastName>Wong</lastName>
+        <phoneNumber>8888888888</phoneNumber>
+        <statusId>1</statusId>
+    </racers>
+    <races>
+        <date>2023-05-28</date>
+        <id>1</id>
+        <location>Location 1</location>
+        <name>Race 1</name>
+    </races>
+    <races>
+        <date>2023-06-15</date>
+        <id>2</id>
+        <location>Location 2</location>
+        <name>Race 2</name>
+    </races>
+    <races>
+        <date>2023-07-20</date>
+        <id>3</id>
+        <location>Location 3</location>
+        <name>Race 3</name>
+    </races>
+    <races>
+        <date>2023-08-25</date>
+        <id>4</id>
+        <location>Location 4</location>
+        <name>Race 4</name>
+    </races>
+    <races>
+        <date>2023-09-30</date>
+        <id>5</id>
+        <location>Location 5</location>
+        <name>Race 5</name>
+    </races>
+    <races>
+        <date>2023-10-05</date>
+        <id>6</id>
+        <location>Location 6</location>
+        <name>Race 6</name>
+    </races>
+    <races>
+        <date>2023-11-11</date>
+        <id>7</id>
+        <location>Location 7</location>
+        <name>Race 7</name>
+    </races>
+    <races>
+        <date>2023-12-20</date>
+        <id>8</id>
+        <location>Location 8</location>
+        <name>Race 8</name>
+    </races>
+    <races>
+        <date>2024-01-15</date>
+        <id>9</id>
+        <location>Location 9</location>
+        <name>Race 9</name>
+    </races>
+    <races>
+        <date>2024-02-18</date>
+        <id>10</id>
+        <location>Location 10</location>
+        <name>Race 10</name>
+    </races>
+    <statuses>
+        <id>1</id>
+        <statusName>Active</statusName>
+    </statuses>
+    <statuses>
+        <id>2</id>
+        <statusName>Retired</statusName>
+    </statuses>
+</raceDatabase>
+

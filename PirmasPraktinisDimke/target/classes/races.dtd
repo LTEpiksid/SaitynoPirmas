@@ -1,0 +1,14 @@
+<!ELEMENT races (race+)>
+        <!ELEMENT race (id, name, location, date, racers)>
+        <!ELEMENT id (#PCDATA)>
+        <!ELEMENT name (#PCDATA)>
+        <!ELEMENT location (#PCDATA)>
+        <!ELEMENT date (#PCDATA)>
+        <!ELEMENT racers (racer+)>
+        <!ELEMENT racer (id, firstName, lastName, phoneNumber, status, finishTime, position)>
+        <!ELEMENT firstName (#PCDATA)>
+        <!ELEMENT lastName (#PCDATA)>
+        <!ELEMENT phoneNumber (#PCDATA)>
+        <!ELEMENT status (#PCDATA)>
+        <!ELEMENT finishTime (#PCDATA)>
+        <!ELEMENT position (#PCDATA)>
